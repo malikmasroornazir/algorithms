@@ -2,8 +2,6 @@
 // solution for 0-1 Knapsack problem
 #include <stdio.h>
 
-// A utility function that returns
-// maximum of two integers
 int max(int a, int b)
 {
 	return (a > b) ? a : b;
@@ -35,7 +33,7 @@ int knapSack(int W, int wt[], int val[], int n)
 	return K[n][W];
 }
 
-// Driver Code
+
 int main()
 {
 	int val[] = { 60, 100, 120 };
